@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Como posso ajudar · Mirian Niz</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0OCIgZmlsbD0iIzVjNzczNSIvPgogIDxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjQwIiBmaWxsPSJub25lIiBzdHJva2U9IiNmNGVjZGMiIHN0cm9rZS13aWR0aD0iMS42Ii8+CiAgPHBhdGggZD0iTTUwIDN2OU01MCA4OHY5TTMgNTBoOU04OCA1MGg5IiBzdHJva2U9IiNmNGVjZGMiIHN0cm9rZS13aWR0aD0iMS42Ii8+CiAgPHBhdGggZD0iTTUwIDIyYzAgMCAtMjAgMTIgLTIwIDMyYzAgMTQgMTAgMjIgMjAgMjJjMTAgMCAyMCAtOCAyMCAtMjJjMCAtMjAgLTIwIC0zMiAtMjAgLTMyWiIKICAgICAgICBmaWxsPSIjZjRlY2RjIi8+CiAgPHBhdGggZD0iTTUwIDMwdjQyIiBzdHJva2U9IiM1Yzc3MzUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPHBhdGggZD0iTTUwIDQwYy01IDIgLTkgNiAtOSA2TTUwIDQwYzUgMiA5IDYgOSA2TTUwIDUyYy02IDIgLTEwIDcgLTEwIDdNNTAgNTJjNiAyIDEwIDcgMTAgNyIKICAgICAgICBzdHJva2U9IiM1Yzc3MzUiIHN0cm9rZS13aWR0aD0iMS42IiBzdHJva2UtbGluZWNhcD0icm91bmQiIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg==">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600;700&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#3a2f22; --ink-soft:#71604a; --paper:#f4ecdc; --panel:#fbf6ea;
+    --line:#e2d3b3; --line-strong:#cbb98d;
+    --header-bg:#3c4a2c; --header-text:#f1ead3;
+    --brand:#7c9a4e; --brand-dark:#5c7735;
+    --font-display:'Comfortaa', 'Nunito', sans-serif;
+    --font-body:'Nunito', -apple-system, sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;background:var(--paper);color:var(--ink);font-family:var(--font-body);}
+
+  header{
+    background:var(--header-bg); color:var(--header-text);
+    padding:44px 24px 38px; text-align:center; position:relative;
+  }
+  header::after{
+    content:""; position:absolute; left:0; right:0; bottom:0; height:5px;
+    background:var(--brand);
+  }
+  header a.back{display:inline-flex;align-items:center;gap:6px;font:700 13.5px var(--font-body);
+    color:var(--header-bg);background:var(--brand);text-decoration:none;
+    padding:9px 18px;border-radius:20px;margin-bottom:20px;transition:opacity .15s ease;}
+  header a.back:hover{opacity:.87;}
+  header h1{font:700 28px/1.25 var(--font-display); margin:0 0 8px;}
+  header p{max-width:560px;margin:0 auto;font-size:15px;line-height:1.6;color:#dfe0cd;}
+
+  main{max-width:1080px;margin:0 auto;padding:48px 24px 80px;}
+
+  .skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;}
+  .skill-card{background:var(--panel);border:1px solid var(--line);border-radius:14px;
+    padding:20px 22px;border-top:4px solid var(--accent);}
+  .skill-card h3{font:700 16.5px var(--font-display);margin:0 0 13px;color:var(--ink);}
+  .skill-tags{display:flex;flex-wrap:wrap;gap:7px;}
+  .skill-tags span{font:600 11.5px var(--font-body);background:var(--paper);
+    border:1px solid var(--line-strong);border-radius:20px;padding:5px 12px;color:var(--ink-soft);}
+
+  footer{text-align:center;padding:30px 24px 46px;font-size:12.5px;color:var(--ink-soft);}
+  footer a{color:var(--brand-dark);font-weight:600;text-decoration:none;}
+
+  @media (max-width:560px){
+    header h1{font-size:22px;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a class="back" href="index.html">← Voltar ao portfólio</a>
+  <h1>Como posso ajudar</h1>
+  <p>Frentes de trabalho que combino em cada projeto — da ciência ambiental à publicação de mapas interativos.</p>
+</header>
+
+<main>
+  <div class="skills-grid">
+
+    <div class="skill-card" style="--accent:#4a7043">
+      <h3>Geoprocessamento &amp; SIG</h3>
+      <div class="skill-tags">
+        <span>QGIS</span><span>Análise espacial</span><span>Cartografia temática</span>
+        <span>Dados vetoriais e raster</span><span>Georreferenciamento</span><span>Análise territorial</span>
+      </div>
+    </div>
+
+    <div class="skill-card" style="--accent:#b5651d">
+      <h3>WebGIS &amp; Geoportais</h3>
+      <div class="skill-tags">
+        <span>Mapas interativos</span><span>Geoportais</span><span>Visualização de dados geográficos</span>
+        <span>Camadas temáticas</span><span>Interfaces para dados espaciais</span><span>Publicação web</span>
+      </div>
+    </div>
+
+    <div class="skill-card" style="--accent:#2e5339">
+      <h3>Análise Ambiental</h3>
+      <div class="skill-tags">
+        <span>Diagnóstico ambiental</span><span>Recursos hídricos</span><span>APPs</span>
+        <span>Uso e cobertura da terra</span><span>Arborização urbana</span><span>Análise territorial</span>
+      </div>
+    </div>
+
+    <div class="skill-card" style="--accent:#a67c1e">
+      <h3>Sensoriamento Remoto</h3>
+      <div class="skill-tags">
+        <span>Imagens de satélite</span><span>Classificação supervisionada</span><span>Análise multitemporal</span>
+        <span>Avaliação de acurácia</span><span>CBERS-4A</span><span>MapBiomas</span>
+      </div>
+    </div>
+
+    <div class="skill-card" style="--accent:#8a5a3c">
+      <h3>Dados &amp; Informação</h3>
+      <div class="skill-tags">
+        <span>Tratamento de dados</span><span>Indicadores ambientais</span><span>Análise espacial</span>
+        <span>Relatórios técnicos</span><span>Visualização de dados</span>
+      </div>
+    </div>
+
+    <div class="skill-card" style="--accent:#6b7a3f">
+      <h3>Engenharia Ambiental</h3>
+      <div class="skill-tags">
+        <span>Planejamento ambiental</span><span>Gestão ambiental</span><span>Recursos hídricos</span>
+        <span>Conservação</span><span>Mudanças climáticas</span><span>Gestão territorial</span>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <a href="https://github.com/mirianniz-debug" target="_blank" rel="noopener">github.com/mirianniz-debug</a>
+</footer>
+
+</body>
+</html>
