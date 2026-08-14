@@ -28,10 +28,11 @@
     content:""; position:absolute; left:0; right:0; bottom:0; height:5px;
     background:var(--brand);
   }
-  header a.back{display:inline-flex;align-items:center;gap:6px;font:700 13.5px var(--font-body);
+  a.back{display:inline-flex;align-items:center;gap:6px;font:700 13.5px var(--font-body);
     color:var(--header-bg);background:var(--brand);text-decoration:none;
-    padding:9px 18px;border-radius:20px;margin-bottom:20px;transition:opacity .15s ease;}
-  header a.back:hover{opacity:.87;}
+    padding:9px 18px;border-radius:20px;transition:opacity .15s ease;}
+  header a.back{margin-bottom:20px;}
+  a.back:hover{opacity:.87;}
   header h1{font:700 28px/1.25 var(--font-display); margin:0 0 8px;}
   header p{max-width:520px;margin:0 auto;font-size:15px;line-height:1.6;color:#dfe0cd;}
 
@@ -127,7 +128,8 @@
 </main>
 
 <footer>
-  <a href="https://github.com/mirianniz-debug" target="_blank" rel="noopener">github.com/mirianniz-debug</a>
+  <a class="back" href="index.html">← Voltar ao portfólio</a>
+  <div style="margin-top:16px;"><a href="https://github.com/mirianniz-debug" target="_blank" rel="noopener">github.com/mirianniz-debug</a></div>
 </footer>
 
 </body>
